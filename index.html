@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simple Calculator</title>
+<link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+<div class="calculator">
+<form id="calcForm">
+<input type="text" id="calcInput" readonly><br>
+<button type="button" onclick="insertValue('1')">1</button>
+<button type="button" onclick="insertValue('2')">2</button>
+<button type="button" onclick="insertValue('3')">3</button><br>
+<button type="button" onclick="insertValue('4')">4</button>
+<button type="button" onclick="insertValue('5')">5</button>
+<button type="button" onclick="insertValue('6')">6</button><br>
+<button type="button" onclick="insertValue('7')">7</button>
+<button type="button" onclick="insertValue('8')">8</button>
+<button type="button" onclick="insertValue('9')">9</button><br>
+<button type="button" onclick="insertValue('+')">+</button>
+<button type="button" onclick="insertValue('-')">-</button>
+<button type="button" onclick="insertValue('*')">*</button><br>
+<button type="button" onclick="insertValue('0')">0</button>
+<button type="button" onclick="insertValue('/')">/</button>
+<button type="button" onclick="clearInput()">C</button><br>
+<button type="button" onclick="calculate()">=</button>
+</form>
+</div>
+<script src="calculator.js"></script>
+</body>
+</html>
